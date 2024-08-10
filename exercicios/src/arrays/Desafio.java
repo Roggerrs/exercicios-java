@@ -1,7 +1,6 @@
 package arrays;
 
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Desafio {
@@ -22,7 +21,7 @@ public class Desafio {
 		
 		for (int i = 0; i < notas.length; i++) {
 			System.out.println("Informe a nota " + i + 1 + ": ");
-			notas [i] = entrada.nextDouble());
+			notas [i] = entrada.nextDouble();
 			
 		}
 		double total = 0;
